@@ -1,0 +1,397 @@
+* {
+    padding: 0;
+    margin: 0;
+    max-width: 1400px;
+}
+
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 30px; */
+    text-align: center;
+    /* overflow: hidden; */
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: #edd1d1;
+    padding: 20px;
+    width: 100%;
+    /* margin-left: 170px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+.navigation h1 {
+    color: blue;
+    font-family: poppins;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+
+.navigation ul {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    /* background-color: #ccc; */
+
+    
+    list-style: none;
+}
+.navigation a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: poppins;
+}
+.navigation a:hover {
+  border-bottom: 3px solid #787878;
+ 
+}
+/* .image-section img {
+    width: 900px;
+    margin-left: 250px;
+    height: 500px;
+    margin-top: 50px;
+   
+} */
+.image-section {
+  position: relativ
+}
+
+.search-bar {
+  position: absolute;
+  top: 50%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 10PX 4px 8px rgba(255, 255, 255, 0.1); ;
+  margin-top: -50px;
+  align-items: center;
+  text-align: center;
+}
+
+.search-bar form {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input[type="text"] {
+  width: 300px;
+  padding: 5px;
+  background-color: #ffffff;
+}
+
+.search-bar button {
+  margin-left: 5px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.image-section .img-main img {
+  width: 900px;
+  margin-left: 250px;
+  height: 500px;
+  margin-top: 100px;
+}
+
+
+.third-section {
+    text-align: center;
+    margin-top: 50px;
+    align-items: center;
+    margin-bottom: 100px;
+    
+}
+.third-section h3 {
+    color: blue;
+    font-size: 36px;
+    font-family: poppins;
+    letter-spacing: 10px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.about-text {
+    /* width: 500px; */
+    line-height: 30px;
+    text-align: center;
+    color: rgb(180, 180, 180);
+    font-family: poppins;
+    font-weight: 400;
+}
+.about-links a {
+    color: rgb(100, 55, 0);
+    letter-spacing: 5px;
+    text-decoration: none;
+
+}
+.our-bags {
+   margin-top: 50px;
+}
+.our-bags h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: poppins;
+    font-size: 36px;
+    letter-spacing: 10px;
+    color:blue;
+    font-weight: 500;
+}
+.our-bags img {
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+
+}
+.our-bags img:hover {
+
+  opacity: 0.2;
+}
+
+.bags-head {
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .bags-head h2 {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0 20px;
+    background-color: white;
+  }
+  
+  .bags-head::before,
+  .bags-head::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    height: 1px;
+    background-color: #ccc;
+  }
+  
+  .bags-head::before {
+    left: 0;
+  }
+  
+  .bags-head::after {
+    right: 0;
+  }
+  .video {
+    text-align: center;
+
+  }
+  .customers-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+  }
+.costumers-section {
+    margin-top: 70px;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+.costumers {
+    text-align: center;
+    
+}
+  .customer-img img {
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+  }
+  .costumers-text {
+    color: #ccc;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .costumers-rating img {
+    margin-top: 50px;
+    width: 130px;
+    height: 30px;
+  }
+  
+  .costumers-header {
+    color: blue;
+    font-family: poppins;
+    font-weight: 500;
+    letter-spacing: 10px;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+
+  }
+  .costumers-header {
+    text-align: center;
+    margin-top: 100px ;
+    position: relative;
+}
+
+.costumers-header h2 {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0 20px;
+    background-color: white;
+}
+
+.costumers-header::before,
+.costumers-header::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.costumers-header::before {
+    left: 0;
+}
+
+.costumers-header::after {
+    right: 0;
+}
+.about-sales {
+  text-align: center;
+  margin: 50px 0;
+  position: relative;
+}
+
+.about-sales h1 {
+  position: relative;  
+  z-index: 1;
+  display: inline-block;
+  padding: 0 20px;
+  background-color: white;
+    color: blue;
+    font-family: poppins;
+    font-weight: 500;
+    letter-spacing: 10px;
+    font-size: 36px;
+    text-align: center;
+    
+
+}
+
+.about-sales::before,
+.about-sales::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 50%;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.about-sales::before {
+  left: 0;
+}
+
+.about-sales::after {
+  right: 0;
+}
+.sales-box img {
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+.sales-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* .footer {
+  width: 1150px;
+  height: 300px;
+  background-color: blue;
+  margin-left: 125px;
+  margin-top: 80px;
+} */
+.footer-main {
+  text-align: center;
+  margin: 80px 0;
+  position: relative;
+}
+
+.footer-main h1 {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 0 20px;
+  background-color: white;
+}
+
+.footer-main::before,
+.footer-main::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 50%;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.footer-main::before {
+  left: 0;
+}
+
+.footer-main::after {
+  right: 0;
+}
+.contact img {
+  width: 50px;
+  height: 50px;
+  
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.email-form {
+  text-align: center;
+  margin: 20px;
+}
+
+.email-form input {
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 250px;
+  font-size: 16px;
+}
+
+.email-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.border {
+  background-color:black;
+  width: 100px;
+  height: 100px;
+}
